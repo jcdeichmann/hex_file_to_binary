@@ -86,6 +86,7 @@ def machine_to_assembly_in(binary_filename):
         asm_string.append(file_array[index].ljust(30))
         
         #figure out if it is a write or read
+        #testing again
         if write_key == "1":
             asm_string.append("W".ljust(3))
         else:
